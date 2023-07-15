@@ -1,0 +1,51 @@
+.card {
+  margin-bottom: 2em; /* Adds some space between the cards */
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.expert-info {
+  display: flex;
+  align-items: start;
+  margin-bottom: 30px;
+}
+
+.left-section,
+.right-section {
+  flex: 1;
+}
+
+.image-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.image-container img {
+  width: 10%;
+  border-radius: 50%;
+}
+
+.name-title {
+  text-align: center;
+}
+
+.right-section {
+  padding-left: 20px;
+}
+
+.preview-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.more-btn {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007bff;
+  cursor: pointer;
+}
